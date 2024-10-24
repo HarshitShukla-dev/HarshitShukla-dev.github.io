@@ -6,85 +6,116 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: #E0E0E0;
     line-height: 1.6;
-    background-color: #f5f5f5;
-    color: #333;
-    padding-top: 20px;
 }
 
 header {
-    background-color: #3f51b5;
-    color: #fff;
+    background-color: #1F1F1F;
+    color: #E0E0E0;
     padding: 20px 0;
     text-align: center;
+    border-bottom: 2px solid #333;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    font-size: 3rem;
 }
 
 header .location {
-    font-size: 1rem;
-    margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin: 10px 0;
 }
 
-header .contact a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
+header .contact {
+    margin-top: 15px;
+}
+
+header .contact button {
+    background-color: #333;
+    color: #E0E0E0;
+    border: 2px solid #555;
+    padding: 10px 15px;
     font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+header .contact button:hover {
+    background-color: #555;
+    border-color: #777;
 }
 
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 h2 {
-    font-size: 2rem;
-    color: #3f51b5;
+    font-size: 2.5rem;
+    color: #E0E0E0;
     margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
 }
 
 .skills ul, .projects ul {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
 }
 
 .skills li, .projects li {
     margin-bottom: 10px;
 }
 
-.projects .project {
-    background-color: #fff;
+.box {
+    background-color: #1F1F1F;
     padding: 20px;
-    border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333;
+    border-radius: 10px;
 }
 
-.demo-link {
-    display: inline-block;
-    margin-top: 10px;
-    color: #3f51b5;
-    text-decoration: none;
-    font-weight: bold;
+.projects .project {
+    margin-bottom: 20px;
 }
 
-.demo-link:hover {
-    text-decoration: underline;
+button {
+    background-color: #333;
+    color: #E0E0E0;
+    border: 2px solid #555;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+    border-color: #777;
 }
 
 footer {
-    background-color: #3f51b5;
-    color: #fff;
+    background-color: #1F1F1F;
+    color: #E0E0E0;
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
+    border-top: 2px solid #333;
 }
 
-footer a {
-    color: #fff;
-    text-decoration: none;
+footer button {
+    background-color: #333;
+    color: #E0E0E0;
+    border: 2px solid #555;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+footer button:hover {
+    background-color: #555;
+    border-color: #777;
 }
