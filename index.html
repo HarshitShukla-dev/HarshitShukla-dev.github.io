@@ -6,7 +6,6 @@
     <meta name="description" content="Portfolio of Harshit Shukla">
     <title>Harshit Shukla - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,15 +14,15 @@
             <h1>Harshit Shukla</h1>
             <p class="location">Unnao, Uttar Pradesh, India</p>
             <div class="contact">
-                <a href="mailto:contact@harshitshukla.me">contact@harshitshukla.me</a>
-                <a href="https://linkedin.com/in/harshitshuklaa" target="_blank">LinkedIn</a>
-                <a href="https://github.com/HarshitShukla-dev" target="_blank">GitHub</a>
+                <button onclick="location.href='mailto:contact@harshitshukla.me'">Contact Me</button>
+                <button onclick="window.open('https://linkedin.com/in/harshitshuklaa', '_blank')">LinkedIn</button>
+                <button onclick="window.open('https://github.com/HarshitShukla-dev', '_blank')">GitHub</button>
             </div>
         </div>
     </header>
     
     <section class="skills">
-        <div class="container">
+        <div class="container box">
             <h2>Skills</h2>
             <ul>
                 <li><strong>Programming Languages:</strong> C, C++, Python, Rust</li>
@@ -37,7 +36,7 @@
     </section>
     
     <section class="projects">
-        <div class="container">
+        <div class="container box">
             <h2>Projects</h2>
             <div class="project">
                 <h3>Bhism Live Demo</h3>
@@ -48,7 +47,7 @@
                     <li>Integrated blood bank management reduced delays by 20%.</li>
                     <li>Developed scalable architecture using Docker and Azure.</li>
                 </ul>
-                <a href="https://bhism.pages.dev/" target="_blank" class="demo-link">View Demo</a>
+                <button onclick="window.open('https://bhism.pages.dev/', '_blank')">View Demo</button>
             </div>
             <div class="project">
                 <h3>Acadify Repository</h3>
@@ -58,7 +57,7 @@
                     <li>Performance scores of 90+ for quizzes and 80+ for the integrated code editor.</li>
                     <li>Deployed via Azure for scalability and reliability.</li>
                 </ul>
-                <a href="https://acadify.azurewebsites.net/" target="_blank" class="demo-link">View Demo</a>
+                <button onclick="window.open('https://acadify.azurewebsites.net/', '_blank')">View Demo</button>
             </div>
             <div class="project">
                 <h3>EdVenture Repository</h3>
@@ -68,13 +67,13 @@
                     <li>Real-time interactions via Long Polling enhanced user engagement.</li>
                     <li>Secure infrastructure on Azure supporting hundreds of students.</li>
                 </ul>
-                <a href="https://edventure.hs.vc/" target="_blank" class="demo-link">View Demo</a>
+                <button onclick="window.open('https://edventure.hs.vc/', '_blank')">View Demo</button>
             </div>
         </div>
     </section>
     
     <section class="education">
-        <div class="container">
+        <div class="container box">
             <h2>Education</h2>
             <p><strong>B Tech in Computer Science, Lovely Professional University</strong> - Expected 2026, 8.01 CGPA</p>
             <p><strong>Intermediate - 12th, Lucknow Public School</strong> - 2019-2021, 93%</p>
@@ -83,7 +82,7 @@
     </section>
     
     <section class="experience">
-        <div class="container">
+        <div class="container box">
             <h2>Experience</h2>
             <p><strong>Graphic Design Internship at Deuxstem</strong> - January 2022 - March 2022</p>
             <p>Developed digital graphics for social media marketing campaigns, including banners, posters, and logos.</p>
@@ -92,7 +91,7 @@
     
     <footer>
         <div class="container">
-            <p>&copy; 2024 Harshit Shukla | <a href="mailto:contact@harshitshukla.me">contact@harshitshukla.me</a></p>
+            <p>&copy; 2024 Harshit Shukla | <button onclick="location.href='mailto:contact@harshitshukla.me'">Email Me</button></p>
         </div>
     </footer>
 </body>
